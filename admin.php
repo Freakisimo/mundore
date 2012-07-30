@@ -1,3 +1,6 @@
+<?php 
+session_start();
+ ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -19,6 +22,7 @@
 					<th>Fecha</th>
 					<th>Id recompenza</th>
 					<th>Eliminar datos</th>
+					<th>Ver asociados</th>
 					<th>Agregar datos</th>
 				</tr>
 			</thead>
@@ -30,7 +34,9 @@
 					echo "<td>".$row['2']."</td>";
 					echo "<td id='".$row['3']."'>".$row['3']."</td>";
 					$id=$row['3'];
-					echo "<td><a href='#' onclick='elimina_elemento()' title='Eliminar el registro'>Eliminar</a></td>";
+					$_SESSION["id_unico"] = $id;
+					echo '<td><a href="javascript:preguntar()" title="Eliminar el registro">Eliminar</a></td>';
+					echo "<td><a href='admin/admin_ganadores_asoc.php?id=".$id."' title='Registros asociados'>Ver asisociabos</a></td>";
 					echo "<td><a href='admin/ganadores/admin_ganadores.php?id=".$id."' title='Agregar ganadores'>Agregar ganadores</a></td>";
 				echo "</tr>";
 			}

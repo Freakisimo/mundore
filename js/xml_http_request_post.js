@@ -89,3 +89,23 @@ function traerDatos()
 function detalles(){
 
 }
+function preguntar(){
+	eliminar=confirm("¿Deseas eliminar este registro?");
+		if (eliminar)
+			//Redireccionamos si das a aceptar
+		window.location.href = "php/eliminar_dato_grupo.php"; 
+			//página web a la que te redirecciona si confirmas la eliminación
+		else
+			//Y aquí pon cualquier cosa que quieras que salga si le diste al boton de cancelar
+	alert('No se ha podido eliminar el registro...')
+}
+function preguntar_ganador(){
+	eliminar=confirm("¿Deseas eliminar este registro?");
+		if (eliminar)
+			//Redireccionamos si das a aceptar
+		window.location.href = "../php/eliminar_dato_ganador.php"; 
+			//página web a la que te redirecciona si confirmas la eliminación
+		else
+			//Y aquí pon cualquier cosa que quieras que salga si le diste al boton de cancelar
+	alert('No se ha podido eliminar el registro...')
+}
