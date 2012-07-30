@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Agregar grupo y mes</title>
+	<link rel="stylesheet" type="text/css" href="../admin_css.css">
+</head>
+<body>
+	<div id="encabezado"><h1>Agregar grupos con fecha de premiacion</h1></div>
+	<form id="agregar" action="agregar_grupo.php" method="post">
+		<fieldset id="agregar_grupo">
+		<legend>Agregar grupo y fecha</legend>
+			<table>
+				<tr>
+					<td><label for='grupo'>Grupo:</label></td>
+					<td>
+						<select name='grupo' id='grupo'>
+							<option value=''></option>
+    						<option value='Performance Awards'>Performance Awards</option>
+    						<option value='Retail Execution'>Retail Execution</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for='fecha'>Fecha:</label></td>
+					<td><input type='date' name='fecha' id='fecha' /></td>
+				</tr>
+				<tr>					
+					<td><input type='submit' name='agregar' value='agregar' /></td>
+				</tr>			
+			</table>
+		</fieldset>		
+	</form>
+	
+</body>
+</html>

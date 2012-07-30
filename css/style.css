@@ -1,0 +1,170 @@
+body#index{
+	background-repeat: no-repeat;
+}
+body{
+	background-color: #D7EBE9;
+	font-family: "CENTURY SCHOOLBOOK";
+}
+div#encabezado{
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	width: 90%;
+	height: 80px;
+	/*border: solid;*/
+	text-align: left;
+}
+div#main{
+	position: absolute;
+	top: 100px;
+	left: 30px;
+	width: 90%;
+	height: 80%;
+	/*border: solid;*/
+	text-align: center;
+}
+fieldset#login{
+	border-radius: 5px;
+	width: 320px;
+	height: 140px;
+}
+form#login{
+	position: absolute;
+	top: 180px;
+	left: 250px;
+	display: inline-block;
+}
+form#fecha_reporte{
+	position: absolute;
+	top: 200px;
+	left: 110px;
+	display: inline-block;	
+}
+img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+img#detalles{
+	border-radius: 150px;
+	width: 180px;
+	height: 180px;
+}
+img#encabezado{
+	width: 90%;
+	top: 50px;
+	left: 100px;
+	height: 200px;
+	border-radius: 2px;
+}
+input{
+	border-radius: 5px;
+}
+
+input#ejecuta{
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	border-radius: 5px;
+}
+label#lbl_fecha{
+	position: absolute;
+	top: 200px;
+	left: 110px;
+}
+object#datos{
+	position: absolute;
+    top: 250px;
+    left: 100px;
+	width:1170px;
+	height:800px;
+}
+object#tRetail{
+	position: absolute;
+    top: 20px;
+    left: 110px;
+	width:200;
+	height:510;
+}
+object#tperformance{
+	position: absolute;
+    top: 20px;
+    left: 690px;
+	width:200;
+	height:510;
+}
+p{
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+}
+section#detalles{
+	position: absolute;
+	top: 250px;
+	left: 50px;
+	width: 90%;
+}
+section#resRetail1{
+	display: inline-block;
+	position: absolute;
+	top: 250px;
+	left: 110px;
+	width: 550px;
+	height: 300px;
+}
+section#resPerformance1{
+	display: inline-block;
+	position: absolute;
+	top: 250px;
+	left: 690px;
+	width: 550px;
+	height: 300px;
+}
+section#resRetail2{
+	display: inline-block;
+	position: absolute;
+	top: 600px;
+	left: 110px;
+	width: 550px;
+	height: 300px;
+}
+section#resPerformance2{
+	display: inline-block;
+	position: absolute;
+	top: 600px;
+	left: 690px;
+	width: 550px;
+	height: 300px;
+}
+select{
+	border-radius: 5px;	
+}
+select#fecha{
+	width: 130px;
+	position: absolute;
+	top: 200px;
+	left: 160px;	
+}
+
+table#tblRetail{
+	width: 100%;
+	height: 100%;
+	background-color: #1F6FFF;
+	border-radius: 5px;
+}
+table#tblPerformance{
+	width: 100%;
+	height: 100%;
+	background-color: #40A5E8;
+	border-radius: 5px;
+}
+td{
+	width: 25%;
+	height: 50%;
+	text-align: center;
+}
+table#detalles{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
